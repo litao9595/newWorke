@@ -1,0 +1,89 @@
+.top-box{
+  position: fixed;
+  left: 0rem;
+  top:0rem;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+  background: #fff;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  font-size: 0.3rem;
+  border-bottom: solid 1px #e0e0e0;
+  padding: 0.3rem;
+  color: #b9b9b9;
+  line-height: 0.3rem;
+}
+.top-box>div>span{
+  margin-right: 0.6rem;
+}
+.top-box>div>.active{
+  color: #00adca;
+}
+.top-box>div>.fu-jin{
+  padding-right: 0.3rem;
+  background: url("../../image/sanjiao-1.png") no-repeat right center;
+  background-size: 0.25rem auto;
+}
+.top-box>div>.fu-jin-active{
+  color: #00adca;
+  padding-right: 0.3rem;
+  background: url("../../image/sanjiao-2.png") no-repeat right center;
+  background-size: 0.25rem auto;
+}
+.content-box{
+  /*padding-top: 0.9rem;*/
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.content-box .main-list{
+  border-bottom: solid 1px #e0e0e0;
+  padding: 0.3rem 0rem;
+}
+.content-box .main-list .text-1{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+}
+.content-box .main-list .text-1 .left{
+  font-size: 0.33rem;
+  font-weight: bold;
+  line-height: 0.4rem;
+}
+.content-box .main-list .text-1 .right{
+  font-size: 0.25rem;
+  color: #f65c26;
+  line-height: 0.4rem;
+}
+.content-box .main-list .text-2{
+  font-size: 0.3rem;
+  color: #666666;
+  line-height: 0.3rem;
+  margin-top: 0.3rem;
+}
+.content-box .main-list .text-3{
+  font-size: 0.22rem;
+  color: #666666;
+  margin-top: 0.2rem;
+}
+.content-box .main-list .text-3 span{
+  margin-right: 0.3rem;
+}
+.li-poup{
+  position: fixed;
+  width: 100%;
+  height: calc(100% - 0.9rem);
+  left: 0rem;
+  top:0.9rem;
+  background: rgba(0,0,0,.5);
+  z-index: 10;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
